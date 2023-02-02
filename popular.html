@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <!-- BOOTSTRAP ICON -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <title>Indian no-1 gifting site | Taufalo</title>
+  </head>
+  <body>
+  <!-- ***Header*** -->
+  <nav class="navbar navbar-expand-lg" id="navbox">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="media/logo.jpg" style="width: 48px;
+        border-radius: 36px;" class="me-2" alt="logo">Taufalo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Catalog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item-1</a></li>
+              <li><a class="dropdown-item" href="#">Item-2</a></li>
+              <li><a class="dropdown-item" href="#">Item-3</a></li>
+              <li><a class="dropdown-item" href="#">Item-4</a></li>
+              <!-- <li><hr class="dropdown-divider"/></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li> -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="popular.html">Popular</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact Us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about_us.html">About Us</a></li>
+              <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Customer Support</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </ul>
+        <form class="d-flex me-auto" role="search" id="search-box">
+          <input class="form-control me-2" id="input-box" type="search" placeholder="What are you looking for?" aria-label="Search">
+          <button class="btn btn-dark" id="search-btn" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+
+        <button class="btn ms-2 me-3" id="wishlist-btn" type="submit"><i class="bi bi-suit-heart "
+            style="font-size: 27px"></i></button>
+
+        <button class="btn me-3" id="cart-btn" type="submit"><i class="bi bi-cart3"
+            style="font-size: 27px"></i></button>
+        <a href="sign_in.html"><button class="btn btn-dark ms-3 me-3" type="submit" id="Signin-btn">Sign in</button></a>
+      </div>
+    </div>
+  </nav>
+  <!-- ***Header end*** -->
+    
+ <!-- *** Product Section *** -->
+ <!-- <div class="container-fluid bg-danger p-2">
+  <div class="row bg-info">
+    <p>demo</p>
+  </div>
+ </div> -->
+
+ <div class="container py-4" id="product-cards">
+    <h3 class="text-center">Products</h3>
+    <!-- First row end -->
+    <div class="row" style="margin: 16px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/antique-look-camel-pair-statue-2fshowpiece-with-tree-gift-item-500x500.png" alt="">
+          <div class="card-body product-images">
+            <h5>Antique Camel Pair Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$32.60 <strike>$50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/musician-trumpet-metal-snowman-39348.png" alt="">
+          <div class="card-body product-images">
+            <h5>Musician Trumpet Showman Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-10341193.png" alt="">
+          <div class="card-body">
+            <h5>Fairy Baby Antique Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$150.5 <strike>$160.50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-4203069.png" alt="">
+          <div class="card-body">
+            <h5>Lord Buddha Marbel Stone Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$50.60 <strike>$56.90</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- First row end -->
+
+    <!-- Second row -->
+    <div class="row" style="margin: 16px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/antique-look-camel-pair-statue-2fshowpiece-with-tree-gift-item-500x500.png" alt="">
+          <div class="card-body product-images">
+            <h5>Antique Camel Pair Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$32.60 <strike>$50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/musician-trumpet-metal-snowman-39348.png" alt="">
+          <div class="card-body product-images">
+            <h5>Musician Trumpet Showman Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-10341193.png" alt="">
+          <div class="card-body">
+            <h5>Fairy Baby Antique Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$150.5 <strike>$160.50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-4203069.png" alt="">
+          <div class="card-body">
+            <h5>Lord Buddha Marbel Stone Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$50.60 <strike>$56.90</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Second row end -->
+
+    <!-- Third row -->
+    <div class="row" style="margin: 16px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/antique-look-camel-pair-statue-2fshowpiece-with-tree-gift-item-500x500.png" alt="">
+          <div class="card-body product-images">
+            <h5>Antique Camel Pair Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$32.60 <strike>$50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/musician-trumpet-metal-snowman-39348.png" alt="">
+          <div class="card-body product-images">
+            <h5>Musician Trumpet Showman Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-10341193.png" alt="">
+          <div class="card-body">
+            <h5>Fairy Baby Antique Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$150.5 <strike>$160.50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-4203069.png" alt="">
+          <div class="card-body">
+            <h5>Lord Buddha Marbel Stone Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$50.60 <strike>$56.90</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Third row end -->
+
+    <!-- Fourth row -->
+    <div class="row" style="margin: 16px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/antique-look-camel-pair-statue-2fshowpiece-with-tree-gift-item-500x500.png" alt="">
+          <div class="card-body product-images">
+            <h5>Antique Camel Pair Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$32.60 <strike>$50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/musician-trumpet-metal-snowman-39348.png" alt="">
+          <div class="card-body product-images">
+            <h5>Musician Trumpet Showman Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-10341193.png" alt="">
+          <div class="card-body">
+            <h5>Fairy Baby Antique Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$150.5 <strike>$160.50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-4203069.png" alt="">
+          <div class="card-body">
+            <h5>Lord Buddha Marbel Stone Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$50.60 <strike>$56.90</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fourth row end -->
+
+    <!-- 5th row -->
+    <div class="row" style="margin: 16px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/antique-look-camel-pair-statue-2fshowpiece-with-tree-gift-item-500x500.png" alt="">
+          <div class="card-body product-images">
+            <h5>Antique Camel Pair Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$32.60 <strike>$50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/musician-trumpet-metal-snowman-39348.png" alt="">
+          <div class="card-body product-images">
+            <h5>Musician Trumpet Showman Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-10341193.png" alt="">
+          <div class="card-body">
+            <h5>Fairy Baby Antique Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$150.5 <strike>$160.50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="media/images/pexels-photo-4203069.png" alt="">
+          <div class="card-body">
+            <h5>Lord Buddha Marbel Stone Statue</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h5>$50.60 <strike>$56.90</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+            <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 5th row end -->
+    <a href="#" class="" id="viewmorebtn">View More</a>
+    <!-- <button type="button" class="btn btn-primary btn-sm" id="viewmorebtn">View More</button> -->
+  </div>
+  <!-- *** Product Section end *** -->
+
+  <!-- Footer Section -->
+  <footer class="pt-5">
+    <div class="footer-top" style="background-color: #dfd28d;">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-md-4">
+            <h4 class="logo-text">Taufalo</h4>
+            <p>
+              Praesent vulputate neque nec sem fermentum porttitor. Mauris
+              eget dolor convallis, trista, dignissim juis vel felis
+              dictu.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-facebook"></i></i></a>
+              <a href="https://www.instagram.com/taufalo/"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h5 class="title-sm">Navigation</h5>
+            <div class="footer-links">
+              <a href="#">Services</a>
+              <a href="#">Our Work</a>
+              <a href="#">Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h5 class="title-sm">More</h5>
+            <div class="footer-links">
+              <a href="#">FAQ's</a>
+              <a href="#">Privacy & Policy</a>
+              <a href="#">Terms and conditions</a>
+              <a href="#">Certificates</a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h5 class="title-sm">Contact</h5>
+            <div class="footer-links">
+              <p class="mb">1649 Norman Street, Los Angeles, 9001</p>
+              <p class="mb-">8(800)316-06-42</p>
+              <p class="mb">hello@yourdomain.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-md-5">
+            <p>&copy; Copyright <strong>Taufalo</strong>.All Rights Reserved</p>
+          </div>
+          <div class="col-md-5 ms-auto">
+            <p>Designed By <a href="https://www.linkedin.com/in/sk-selim-8655561a6/">Sk Selim</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
